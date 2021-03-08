@@ -4,7 +4,6 @@ body {
 
 .bluetooth {
     padding-top: 42px;
-    padding-bottom: 18px;
     background: #EDEDED;
 }
 
@@ -15,7 +14,8 @@ body {
 
 .bluetooth__img {
     height: 288px;
-    background-image: url(img/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1.png);
+    margin-top: 31px;
+    background-image: url(img/top/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1.png);
     background-repeat: no-repeat;
     background-position: bottom;
 }
@@ -28,6 +28,10 @@ body {
     text-align: center;
     text-transform: uppercase;
     color: #C4C4C4;
+}
+
+.bluetooth > .header svg {
+    height: 34px;
 }
 
 #carouselIndicatorsSettings {
@@ -56,12 +60,6 @@ body {
 }
 
 .flow .text-content-margin {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    color: #2F3132;
     margin-bottom: 0px;
 }
 
@@ -117,6 +115,10 @@ body {
     padding-bottom: 63px;
 }
 
+.info p {
+    margin-bottom: 0px;
+}
+
 .info__heading {
     font-style: normal;
     font-weight: 900;
@@ -152,9 +154,17 @@ body {
     margin-right: 6px;
 }
 
+.info__content {
+    margin-top: 30px;
+}
+
 .info-text-content-margin {
     margin-left: 67px;
     margin-right: 61px;
+}
+
+.logo__top {
+    width: 130px;
 }
 
 .mouse .heading {
@@ -214,8 +224,8 @@ body {
 }
 
 .text-content-margin {
-    padding-left: 36px;
-    padding-right: 35px;
+    margin-left: 36px;
+    margin-right: 35px;
 }
 
 .top {
@@ -228,10 +238,15 @@ body {
     margin-top: 40px;
 }
 
+.top__arrow svg {
+    width: 42px;
+    height: 22px;
+}
+
 .top__img {
     margin-top: 94px;
     margin-bottom: 67px;
-    background-image: url(img/MX-Master\ 1.png);
+    background-image: url(img/top/MX-Master\ 1.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -241,4 +256,249 @@ body {
 .top__text {
     margin-left: 59px;
     margin-right: 59px;
+}
+
+@media (min-width: 768px) {
+    .bluetooth {
+        padding-top: 80px;
+    }
+
+    .bluetooth > .header svg {
+        height: 40px;
+    }
+
+    .bluetooth .heading {
+        margin-top: 39px;
+        margin-bottom: 30px;
+    }
+
+    .bluetooth__img {
+        background-image: url(img/top/768/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1.png);
+        margin-top: 76px;
+        height: 648px;
+    }
+
+    #carouselExampleIndicators {
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    
+    #carouselIndicatorsSettings {
+        margin-bottom: 148px;
+        margin-left: 199px;
+        margin-right: 198px;
+        height: 610px;
+        width: 497px;
+    }
+
+    .count_days {
+        font-size: 150px;
+    }
+
+    .flow {
+        padding-top: 70px;
+    }
+
+    .flow > .heading {
+        margin-bottom: 30px;
+    }
+
+    .flow > .text {
+        padding-left: 64px;
+        padding-right: 65px;
+    }
+
+    .flow_options_img {
+        background-image: url(img/flow/768/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.png);
+        margin-top: 62px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 492px;
+    }
+
+    .flow_options_img ol {
+        display: flex;
+        justify-content: space-between;
+        list-style-position: inside;
+        padding-left: 67px;
+        padding-right: 68px;
+    }
+
+    .flow_options_img li {
+        width: auto;
+        height: 60px;
+        padding-left: 28px;
+        padding-right: 15px;
+        border-left: 1px solid #494949;
+    }
+
+    .flow_options_img li:first-child {
+        border: none;
+        padding-left: 0px;
+    }
+
+    .flow_options_img .text {
+        margin: auto;
+        text-align: left;
+        font-size: 20px;
+        width: auto;
+    }
+
+    .info__content {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .info__content .heading {
+        margin-bottom: 10px;
+    }
+
+    .info__content .info__item {
+        width: 300px;
+        height: 170px;
+    }
+    
+    .info__content > .info__item:first-child {
+        margin-right: 30px;
+    }
+
+    .info__content .text {
+        padding-right: 32px;
+        padding-left: 31px;
+    }
+
+    .info__heading {
+        font-size: 24px;
+    }
+
+    .text__days {
+        font-size: 150px;
+    }
+    
+    .heading {
+        font-size: 40px;
+        line-height: 47px;
+    }
+
+    .info {
+        padding-top: 70px;
+        padding-bottom: 61px;
+    }
+
+    .info > .heading {
+        margin-bottom: 30px;
+    }
+
+    .logo__top {
+        width: 240px;
+    }
+
+    .mouse .heading {
+        margin-bottom: 30px;
+    }
+
+    .mouse .heading:first-child {
+        margin-left: 67px;
+        margin-right: 65px;
+    }
+
+    .mouse .heading {
+        margin-left: 171px;
+        margin-right: 171px;
+    }
+
+    .mouse .text {
+        margin-left: 67px;
+        margin-right: 65px;
+    }
+
+    .mouse-img {
+        margin-top: 50px;
+        height: 549px;
+    }
+
+    .mouse-img.on-glass {
+        background-image: url(img/mouse_section/768/image\ 1.jpg);
+    }
+
+    .mouse-img.on-something {
+        background-image: url(img/mouse_section/768/image\ 2.jpg);
+    }
+
+    .programs {
+        padding: 38px 126px 25px 127px;
+    }
+
+    .programs img {
+        height: 36px;
+    }
+
+    .top {
+        padding-top: 54px;
+        padding-bottom: 80px;
+    }
+
+    .top__img {
+        margin-top: 160px;
+        margin-bottom: 124px;
+        height: 514px;
+    }
+
+    .text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        color: #2F3132;
+    }
+
+    .top__text {
+        margin-left: 154px;
+        margin-right: 155px;
+    }
+
+    .top__arrow {
+        margin-top: 76px;
+    }
+
+    .top__arrow svg {
+        width: 57px;
+        height: 29px;
+    }
+
+    .text-content-margin {
+        margin-left: 77px;
+        margin-right: 77px;
+    }
+
+    .settings > .heading {
+        margin-left: 189px;
+        margin-right: 189px;
+        margin-bottom: 30px;
+    }
+
+    .settings > .text {
+        margin-left: 64px;
+        margin-right: 65px;
+        margin-bottom: 54px;
+    }
+
+    .settings-content {
+        margin-left: 64px;
+        margin-right: 65px;
+        margin-bottom: 70px;
+        padding-bottom: 29px;
+    }
+
+    .settings {
+        padding-bottom: 70px;
+    }
+
+    .footer {
+        padding-top: 47px;
+        height: 150px;
+        font-size: 14px;
+        line-height: 16px;
+    }
 }
