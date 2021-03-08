@@ -35,8 +35,6 @@ body {
 }
 
 #carouselIndicatorsSettings {
-    height: 405px;
-    width: 330px;
     margin: 35px 22px 95px 23px;
 }
 
@@ -287,8 +285,6 @@ body {
         margin-bottom: 148px;
         margin-left: 199px;
         margin-right: 198px;
-        height: 610px;
-        width: 497px;
     }
 
     .count_days {
@@ -473,8 +469,8 @@ body {
     }
 
     .settings > .heading {
-        margin-left: 189px;
-        margin-right: 189px;
+        margin-left: 64px;
+        margin-right: 65px;
         margin-bottom: 30px;
     }
 
